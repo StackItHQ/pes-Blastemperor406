@@ -22,7 +22,7 @@ def bi_directional_sync(sheet, cursor, conn, interval=10):
 if __name__ == "__main__":
     # Initialize Google Sheets and MySQL connections
     print("Initializing Google Sheets API...")
-    cursor,connection=cursors.connect_to_mysql('localhost', 'root', 'yashdarsh', 'superjoin')
+    cursor,connection=cursors.connect_to_mysql(os.getenv('HOST'), os.getenv('USER'), os.getenv('PASSWORD'), os.getenv('DATABASE'))
     sheet=cursors.authenticate_google_sheets('Credentials.json', os.getenv('SHEET_ID'))
 
     try:
