@@ -61,6 +61,11 @@ All the best ✨.
 ## Developer's Section
 Hi 👋!
 The implementation is specific to google sheets and MySQL using python.
+The problem statement presented a very benefical usecase, and I found out a lot of products are available in the market to solve this on a larger scale.
+Google even has node support for this application!
+
+In this repository, is my take on the same.
+
 ### To Run 🏃:
 _prerequisites: python 3.8 or above installed, MySQL server installed_
 
