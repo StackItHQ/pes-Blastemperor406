@@ -65,22 +65,23 @@ The implementation is specific to google sheets and MySQL using python.
 _prerequisites: python 3.8 or above installed, MySQL server installed_
 
 - run `python -m pip install -r requirements.txt`
-- Configure the [variables.env](./variables.env) with your MySQL server credentials.
+- Configure the [variables.env](./variables.env) with your MySQL server credentials and sheet_id.
 - Configure the [Credentials.json](./Credentials.json) with your google cloud details, for more specifications see [here](https://console.cloud.google.com/apis/library/sheets.googleapis.com).
 - Run basetable.sql in your MySQL database.
 - You are all set!
 - execute `python main.py` and the you will have your connection!
 
-Link to video ➡️: [🔗] (https://drive.google.com/file/d/13qoSB5MhUInSsnRPfnhRSUhYtZu7Ufg3/view?usp=sharing)
+**Link to video** ➡️: [🔗] (https://drive.google.com/file/d/13qoSB5MhUInSsnRPfnhRSUhYtZu7Ufg3/view?usp=sharing)
+
+### Approach
+![approach](./Approach.png)
+
 
 **Features planned but not completed due to time constraints:** ⏫
 - API listeners (Flast/FastAPI) for changes.
 - Object relational mapping using SQL alchemy
 
-
-
-
-The project was super fun to build! Thank you for this opportunity
+The project was super fun to build! Thank you for this opportunity 😊
 
 
 
