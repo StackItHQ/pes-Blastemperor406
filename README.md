@@ -45,11 +45,11 @@ Once you're done, make sure you **record a video** showing your project working.
 
 We have a checklist at the bottom of this README file, which you should update as your progress with your assignment. It will help us evaluate your project.
 
-- [ ] My code's working just fine! 🥳
-- [ ] I have recorded a video showing it working and embedded it in the README ▶️
-- [ ] I have tested all the normal working cases 😎
-- [ ] I have even solved some edge cases (brownie points) 💪
-- [ ] I added my very planned-out approach to the problem at the end of this README 📜
+- [*] My code's working just fine! 🥳
+- [*] I have recorded a video showing it working and embedded it in the README ▶️
+- [*] I have tested all the normal working cases 😎
+- [*] I have even solved some edge cases (brownie points) 💪
+- [*] I added my very planned-out approach to the problem at the end of this README 📜
 
 ## Got Questions❓
 Feel free to check the discussions tab, you might get some help there. Check out that tab before reaching out to us. Also, did you know, the internet is a great place to explore? 😛
@@ -59,4 +59,28 @@ We're available at techhiring@superjoin.ai for all queries.
 All the best ✨.
 
 ## Developer's Section
-*Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
+Hi 👋!
+The implementation is specific to google sheets and MySQL using python.
+### To Run 🏃:
+_prerequisites: python 3.8 or above installed, MySQL server installed_
+
+- run `python -m pip install -r requirements.txt`
+- Configure the [variables.env](./variables.env) with your MySQL server credentials.
+- Configure the [Credentials.json](./Credentials.json) with your google cloud details, for more specifications see [here](https://console.cloud.google.com/apis/library/sheets.googleapis.com).
+- Run basetable.sql in your MySQL database.
+- You are all set!
+- execute `python main.py` and the you will have your connection!
+
+Link to video ➡️: [🔗] (https://drive.google.com/file/d/13qoSB5MhUInSsnRPfnhRSUhYtZu7Ufg3/view?usp=sharing)
+
+**Features planned but not completed due to time constraints:** ⏫
+- API listeners (Flast/FastAPI) for changes.
+- Object relational mapping using SQL alchemy
+
+
+
+
+The project was super fun to build! Thank you for this opportunity
+
+
+
